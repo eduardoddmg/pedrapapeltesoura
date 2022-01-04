@@ -1,0 +1,153 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    text-align: center;
+}
+
+h5
+{
+    padding-top: 10px;
+}
+
+.content-principal
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.jogador1
+{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.jogador1 *
+{
+    color: white;
+}
+
+.jogador1 button
+{
+    width: 30%;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    height: 50%;
+}
+
+.jogador2
+{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.jogador2 *
+{
+    color: white;
+}
+
+.jogador2 button
+{
+    width: 30%;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    height: 50%;
+}
+
+.fas
+{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.group-btn
+{
+    margin-top: 40px;
+}
+
+i:hover
+{
+    color: gray;
+    transition: 0.5s;
+}
+
+#btn-modal
+{
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#btn-modal:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.content-principal h2
+{
+    color: black;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+/*mobile vertical*/
+@media only screen and (max-width: 900px)
+{
+    body
+    {
+        height: auto;
+    }
+    .jogador1
+    {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .jogador2
+    {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .content-principal
+    {
+        text-align: center;
+    }
+    #btn-modal
+    {
+        margin-top: -20px;
+    }
+}
+/*mobile horizontal*/
+@media only screen and (max-width: 900px) and (orientation: landscape)
+{
+    .jogador1
+    {
+        height: auto;
+    }
+    .jogador2
+    {
+        height: auto;
+    }
+}
